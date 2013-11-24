@@ -25,6 +25,16 @@ h1{
  	  width:760px;
  	  height:150px;
 	}
+	
+	
+#footer {
+	
+	
+	  background-color: gray;
+  	  margin-left: 170px;
+   	  padding: 10px 20px 20px 10px;
+	
+}
 
 nav{
  	  float: left;
