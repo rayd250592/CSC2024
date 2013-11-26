@@ -21,7 +21,7 @@ p {
 
 #header {
     height: 90px;
-    background: #FF6633;
+    background:blue;
     border-radius: 10px;
     border: 1px solid #eb521f;
     margin: 5px;
@@ -40,6 +40,7 @@ p {
     border-radius: 10px;
     border: 1px solid #ebebeb;
     margin: 5px;
+    
 }
 
 #leftcolumnwrap {
@@ -53,6 +54,7 @@ p {
     border-radius: 10px;
     border: 1px solid #1fb8eb;
     margin: 5px;
+    
 }
 
 #footerwrap {
