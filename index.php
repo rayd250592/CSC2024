@@ -1,16 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+<?php include 'header.php'; ?>
 <title>Raymond's PC's</title>
-<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
 </head>
 <body style="background-color:silver">
     <div id="wrapper">
         <div id="headerwrap">
         <div id="header">
-            <p><img alt="header" src="img/header.png" style="margin-left:300px"></p>
-        </div>
+                  
+
+
+ </div>
         </div>
         <div id="leftcolumnwrap">
 
