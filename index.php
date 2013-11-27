@@ -9,20 +9,16 @@
 <body style="background-color:silver">
     <div id="wrapper">
         <div id="headerwrap">
-        <div id="header">
+     
                   
 
 
  </div>
-        </div>
+       
         <div id="leftcolumnwrap">
 
-        <div id="leftcolumn">
-            
-<p>While bit of menus</p>
-
-        </div>
-
+       
+<?php include 'menu.php'; ?>
 
         </div>
         <div id="contentwrap">
@@ -45,11 +41,9 @@
         </div>
         </div>
         <div id="footerwrap">
-        <div id="footer">
-            <p style="text-align:right">(C) Copyright Raymond Dillon PC's 2013<br>info@raymonddilloncomputers.com<br>07703766787</p>
-
-
-        </div>
+        
+        <?php include 'footer.php'; ?>
+        
         </div>
     </div>
 </body>
