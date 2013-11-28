@@ -21,9 +21,9 @@ p {
 
 #header {
     height: 90px;
-    background:blue;
+    background:#333333;
     border-radius: 10px;
-    border: 1px solid #eb521f;
+    border: 1px solid #33333;
     margin: 5px;
 }
 
@@ -65,10 +65,21 @@ p {
 }
 
 #footer {
-    height: 90px;
-    background: #33FF66;
+    height: 255px;
+    background: #333333;
     border-radius: 10px;
-    border: 1px solid #1feb52;
+    border: 1px solid #333333;
     margin: 5px;
 }
+
+#twitter {
+    height: 255px;
+    width:100px;
+    background: #333333;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    margin: 5px;
+ 
+}
+
 

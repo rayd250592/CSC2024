@@ -10,10 +10,35 @@
 
  
 <div id="footer">
-            <p style="text-align:right">(C) Copyright Raymond Dillon PC's 2013<br>info@raymonddilloncomputers.com<br>07703766787</p>
 
 
-        </div> 
+
+<a class="twitter-timeline" href="https://twitter.com/raycomputers" data-chrome="transparent" data-widget-id="405828694419075073">Tweets by @raycomputers</a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<p style="text-align:right">test</p>
+
+
+</div>
+
+  
+            
+
+ 
+
+            
+          
+
+
+
+
+      
+ 
+
+
+
+   
  
 </body>
 
