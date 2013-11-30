@@ -9,12 +9,14 @@
 <body>
 <div id='cssmenu'>
 <ul>
-   <li class='active'><a href='index.html'><span>Home</span></a></li>
-   <li class='has-sub'><a href='#'><span>Products</span></a>
+
+<li class='active'><a href='login.php'><span>Login</span></a></li>
+   <li class='active'><a href='index.php'><span>Home</span></a></li>
+   <li class='has-sub'><a href='#'><span>About</span></a>
       <ul>
-         <li><a href='#'>Item</a></li>
-         <li><a href='#'>Item2</a></li>
-         <li class='last'><a href='#'><span>Products</span></a></li>
+       <li><a href='about.php'>About the Company</a></li><li><a href='#'></a></li>
+         <li><a href='#'>Company History</a></li><li><a href='#'></a></li>
+         <li class='last'><a href='#'><span>PCustomer Charter</span></a></li>
       </ul>
    </li>
    <li class='has-sub'><a href='#'><span>Company</span></a>

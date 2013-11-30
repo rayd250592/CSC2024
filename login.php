@@ -24,12 +24,26 @@
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Home </h1>
+		<h1 style="margin-left:10px" > Login </h1>
 		
-		<p>Welcome to Raymond's PC's. Here you will find the best deal's on laptops and computers in the country. Keep an eye out for our seasonal offers.</p>
-		<p>With free onsite parking and excellent advice when buying a PC or laptop, you wont want to buy anywhere else!</p>
-		
-
+	        
+	        <form action="" method="post">
+	        
+	        <p><label>Username: </label>
+	        <input type="text" name="user" required />
+	        </p>
+	        <p><label>Password: </label>
+	        <input type="text" name="pass" required />
+	        </p>
+	        <input type="submit" value="login" />
+	    
+	        
+	        
+	        
+	        
+	        
+	        </form>
+	        
         
         </div>
         </div>
