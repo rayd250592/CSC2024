@@ -25,7 +25,7 @@
          <li class='last'><a href='#'><span>Location</span></a></li>
       </ul>
    </li>
-   <li class='last'><a href='#'><span>Contact</span></a></li>
+   <li class='last'><a href='contact.php'><span>Contact Us</span></a></li>
 </ul>
 </div>
 </body>
