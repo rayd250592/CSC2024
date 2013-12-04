@@ -24,10 +24,8 @@
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Products </h1>
+		<h1 style="margin-left:10px" > Desktops </h1>
 		
-		<p>Welcome to Raymond's PC's. Here you will find the best deal's on laptops and computers in the country. Keep an eye out for our seasonal offers.</p>
-		<p>With free onsite parking and excellent advice when buying a PC or laptop, you wont want to buy anywhere else!</p>
 		
 
 
