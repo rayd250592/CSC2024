@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <?php include 'header.php'; ?>
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
 <style type="text/css">
+.auto-style1 {
+	margin-left: 24px;
+}
 </style>
 </head>
 <body style="background-color:silver">
@@ -30,25 +32,28 @@
 		<h1 style="margin-left:10px" > Contact Us </h1>
 
 
-<form action="process_contact.php" method="post" >
+<form action="process_contact.php" method="post">
 	        
 	        <p><label>Name: </label>
 	        <input type="text" name="user" required style="margin-left:20px;" />
 	        </p>
 	        <p><label>Email: </label>
-	        <input type="email" placeholder="me@example.com "name="email" required  />
+	        <input type="text" name="pass" required class="auto-style1" />
 	        </p>
 	        <p><label>Message: </label>
-	   <textarea name="comment" required ></textarea>
+	   <textarea id="comment" name="message" cols="22"></textarea>
 	        </p>
 
 	        <input type="submit" value="Submit" />
+	    
 	        
-	       
+	        
+	        
+	        
+	        
 	        </form>
 	        
-  
-
+        
         
         </div>
         </div>
@@ -58,12 +63,5 @@
         
         </div>
     </div>
-    
 </body>
-
-
-
 </html>
-
-
-
