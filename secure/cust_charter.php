@@ -24,19 +24,46 @@
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Customer Charter </h1>
+		<strong>Title: </strong><input type="text" value="Edit Customer Charter">
 		
-		<p style="margin-left:10px">Raymond's PC's staff are committed to providing first class customer service and ensuring that you are happy with every part of our services. 
+		<br>
+		<br>
+		
+	<strong>Content: </strong>
+	
+	<br>
+	<br>
+	
+		<textarea cols="80">Raymond's PC's staff are committed to providing first class customer service and ensuring that you are happy with every part of our services. 
 		We have looked after thousands of customers and have a very loyal customer base. 
-		We are always looking to improve our service so please get in touch with any ideas or suggestions!</p>
+		We are always looking to improve our service so please get in touch with any ideas or suggestions!</textarea>
 		
-		<h2 style="margin-left:10px" >1. Provide a First Class Customer Service</h2>
+		<br>
+		<br>
 		
-	    <p style="margin-left:10px">Raymond's PC's staff understand the importance of ensuring that they arrive at your home or business as quickly as possible and at the time agreed.
-	     We aim to repair 99% of issues without having to take any equipment away. 
-	     In the rare event that any equipment that is taken away for repair or further diagnosis, we will provide you with an expectation of when it will be returned.
-Where spare parts need to be sourced, your PC PAL Engineers aim to carry an extensive range of spare parts. 
-If we need to order specific parts, we will contact you to gain authorisation (with estimated time of arrival) for delivery upon acceptance of our quotation for parts.</p>
+		
+		<strong>Title: </strong><input type="text" style="width:300px" value="1. Provide a First Class Customer Service">
+		
+			<br>
+		<br>
+		
+	<strong>Content: </strong>
+	
+	<br>
+	<br>
+
+
+	
+		
+	    	<textarea cols="80">
+	    	
+	    	Raymond's PC's staff understand the importance of ensuring that they arrive at your home or business as quickly as possible and at the time agreed.
+	     	We aim to repair 99% of issues without having to take any equipment away. 
+	     	In the rare event that any equipment that is taken away for repair or further diagnosis, we will provide you with an expectation of when it will be returned.
+			Where spare parts need to be sourced, your PC PAL Engineers aim to carry an extensive range of spare parts. 
+			If we need to order specific parts, we will contact you to gain authorisation (with estimated time of arrival) for delivery upon acceptance of our quotation for parts.
+
+</textarea>
 
 <h2 style="margin-left:10px" >2. Prompt and Clear Communication </h2>
 		
