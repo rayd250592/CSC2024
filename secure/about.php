@@ -32,12 +32,10 @@
 		<br>
 <strong>Content:</strong>	<br>
 	<textarea cols="80">Based on Malone Road, belfast, Raymond's PC's is the place to go for all your desktop and laptop needs!</textarea>
+	<br>
+	<br>
 		
-<div id="map" style="margin-left:10px">
-
-
-
-</div>       
+<a href="company_history.php"><input id="gobutton" type="submit" value="Submit" style="margin-left:700px"/></a>    
         
         
         </div>
