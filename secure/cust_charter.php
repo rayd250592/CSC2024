@@ -65,21 +65,68 @@
 
 </textarea>
 
-<h2 style="margin-left:10px" >2. Prompt and Clear Communication </h2>
+<br>
+<br>
+
+<strong>Title: </strong><input type="text" style="width:300px" value="2. Prompt and Clear Communication">
 		
-	    <p style="margin-left:10px">Your PC PAL Engineers understand the importance of answering your call and aim to answer all calls within 5 rings.
-	     If we are unable to answer immediately (as we may be speaking to another customer), then we will return your call within the hour. 
-	    We will also provide prompt replies via email.</p>
+			<br>
+		<br>
+		
+	<strong>Content: </strong>
+	
+	<br>
+	<br>
+
+		
+	 	<textarea cols="80">
+	 	Raymond's PC's staffunderstand the importance of answering your call and aim to answer all calls within 5 rings.
+	    If we are unable to answer immediately (as we may be speaking to another customer), then we will return your call within the hour. 
+	    We will also provide prompt replies via email.
+	    </textarea>
 	    
-	    <h2 style="margin-left:10px" >3. Clear and Simple Pricing</h2>
-		
-	    <p style="margin-left:10px">Your PC PAL Engineers aim to provide clear pricing information before commencing any work for you and will provide 
-	    a fixed price for the supply of new or replacement spare parts in advance for your authorisation.</p>
+	    <br>
+	    <br>
 	    
-	     <h2 style="margin-left:10px" >4. Payment and Receipts</h2>
+
+<strong>Title: </strong><input type="text" style="width:300px" value="3. Clear and Simple Pricing">
 		
-	    <p style="margin-left:10px">Your PC PAL Engineers aim to ensure we provide convenient payment methods including Cash, Company Cheque, Debit and Credit cards.
-	     Payments will be taken via our secure website and a full receipt or invoice will be provided..</p>
+			<br>
+		<br>
+		
+	<strong>Content: </strong>
+	
+	<br>
+	<br>
+	    		
+	<textarea cols="80">
+	
+	"Raymond's PC's aim to provide clear pricing information before commencing any work for you and will provide 
+	 a fixed price for the supply of new or replacement spare parts in advance for your authorisation.
+	
+ </textarea>
+	    
+<br>
+<br>
+
+<strong>Title: </strong><input type="text" style="width:300px" value="4. Payment and Receipts">
+		
+			<br>
+		<br>
+		
+	<strong>Content: </strong>
+	
+	<br>
+	<br>
+	    		
+	<textarea cols="80">
+			
+			
+	Raymond's PC's aim to ensure we provide convenient payment methods including Cash, Company Cheque, Debit and Credit cards.
+	    
+	Payments will be taken via our secure website and a full receipt or invoice will be provided
+	
+	</textarea>
 
 
 
