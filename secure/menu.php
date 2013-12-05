@@ -10,7 +10,7 @@
 <div id='cssmenu'>
 <ul>
 
-<li class='active'><a href='login.php'><span>Login</span></a></li>
+<li class='active'><a href='#'><span>Admin Menu</span></a></li>
    <li class='active'><a href='index.php'><span>Home</span></a></li>
    <li class='has-sub'><a href='#'><span>About</span></a>
       <ul>
@@ -25,7 +25,15 @@
          <li class='last'><a href="desktops.php"><span>Desktops</span></a></li>
       </ul>
    </li>
+    <li class='has-sub'><a href='#'><span>Other</span></a>
+      <ul>
+         <li><a href="header.php"><span>Header</span></a></li>
+         <li class='last'><a href="footer.php"><span>Footer</span></a></li>
+      </ul>
+   </li>
+
    <li class='last'><a href='contact.php'><span>Contact Us</span></a></li>
+   <li class='last'><a href='logout.php'><span>Logout</span></a></li>
 </ul>
 </div>
 </body>
