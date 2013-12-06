@@ -24,7 +24,7 @@
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Login </h1>
+		<h1 style="margin-left:10px" > Logout: </h1>
 		
         </div>
         </div>

@@ -2,6 +2,7 @@
 <html>
 <head>
 <?php include 'header.php'; ?>
+
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
@@ -27,13 +28,13 @@
 		<h1 style="margin-left:10px" > Login </h1>
 		
 	        
-	        <form action="" method="post">
+	        <form action="process_login.php" method="POST">
 	        
 	        <p><label>Username: </label>
 	        <input type="text" name="user" required />
 	        </p>
 	        <p><label>Password: </label>
-	        <input type="text" name="pass" required />
+	        <input type="password" name="userpassword" required />
 	        </p>
 	        <input type="submit" value="login" />
 	    

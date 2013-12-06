@@ -1,10 +1,23 @@
-<!DOCTYPE html>
+<?php
+
+session_start();
+
+if (!isset($_SESSION['csc2024_40043298']))
+
+{
+
+$URL = '../login.php';
+header ("Location: $URL");
+}
+
+?>
+
 <html>
 <head>
 <?php include 'secureheader.php'; ?>
 <title>Raymond's PC's</title>
 
-<link rel="stylesheet" type="text/css" href="../styles/css.css" />
+<link rel="stylesheet" type="text/css" href="../styles/css.css">
 </head>
 <body style="background-color:silver">
     <div id="wrapper">
