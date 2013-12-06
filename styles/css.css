@@ -27,6 +27,15 @@ p {
     margin: 5px;
 }
 
+#secureheader {
+    height: 90px;
+    background:#867970;
+    border-radius: 10px;
+    border: 1px solid #33333;
+    margin-bottom:5px;
+}
+
+
 
 
 #contentwrap {
@@ -71,6 +80,15 @@ p {
     border: 1px solid #333333;
     margin: 5px;
 }
+
+#securefooter {
+    height: 255px;
+    background: #867970;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    margin: 5px;
+}
+
 
 #twitter {
     height: 255px;

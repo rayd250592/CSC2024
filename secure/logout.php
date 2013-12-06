@@ -24,15 +24,8 @@
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Desktops </h1>
+		<h1 style="margin-left:10px" > Login </h1>
 		
-		
-
-
-
-
-
-        
         </div>
         </div>
         <div id="footerwrap">

@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include 'header.php'; ?>
+<?php include 'secureheader.php'; ?>
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
 <style type="text/css">
-.auto-style1 {
-	margin-left: 24px;
-}
 </style>
 </head>
 <body style="background-color:silver">
@@ -38,7 +35,7 @@
 	        <input type="text" name="user" required style="margin-left:20px;" />
 	        </p>
 	        <p><label>Email: </label>
-	        <input type="text" name="pass" required class="auto-style1" />
+	        <input type="text" name="pass" required  />
 	        </p>
 	        <p><label>Message: </label>
 	   <textarea id="comment" name="message" cols="22"></textarea>
@@ -59,7 +56,7 @@
         </div>
         <div id="footerwrap">
         
-        <?php include 'footer.php'; ?>
+        <?php include 'securefooter.php'; ?>
         
         </div>
     </div>

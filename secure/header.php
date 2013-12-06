@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<?php include 'secureheader.php'; ?>
+<title>Raymond's PC's</title>
+
 <link rel="stylesheet" type="text/css" href="../styles/css.css" />
+<style type="text/css">
+</style>
 </head>
-
-<body>
-
- <div id="wrapper">
+<body style="background-color:silver">
+    <div id="wrapper">
         <div id="headerwrap">
-        <div id="header">
+     
                   
-<img alt="heder "src="../img/header.png" style="margin-left:300px">
+
 
  </div>
+       
+        <div id="leftcolumnwrap">
+
+       
+<?php include 'menu.php'; ?>
+
         </div>
+        <div id="contentwrap">
+        <div id="content">
+     
+		<h1 style="margin-left:10px" > Edit Header </h1>
 
-</div>
+
+<form action="" method="post">
+	        
+	        <p><label>Image: </label>
+	        <input type="file" name="user" required style="margin-left:20px;" />
+	        </p>
+	       	    
+
+	        <input type="submit" value="Submit" />
+	    
+	        
+	        
+	        
+	        
+	        
+	        </form>
+	        
+        
+        
+        </div>
+        </div>
+        <div id="footerwrap">
+        
+        <?php include 'securefooter.php'; ?>
+        
+        </div>
+    </div>
 </body>
-
 </html>

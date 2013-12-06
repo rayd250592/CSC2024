@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include 'header.php'; ?>
+<?php include 'secureheader.php'; ?>
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
@@ -23,6 +23,8 @@
         </div>
         <div id="contentwrap">
         <div id="content">
+        
+   <h1>Edit Customer Charter Page</h1>
      
 		<strong>Title: </strong><input type="text" value="Edit Customer Charter">
 		
@@ -129,6 +131,8 @@
 	</textarea>
 
 
+<a href="company_history.php"><input id="gobutton" type="submit" value="Submit" style="margin-left:700px"/></a>    
+
 
 
         
@@ -136,7 +140,7 @@
         </div>
         <div id="footerwrap">
         
-        <?php include 'footer.php'; ?>
+        <?php include 'securefooter.php'; ?>
         
         </div>
     </div>
