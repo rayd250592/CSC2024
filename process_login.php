@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
 <?php 
-
 session_start();
-
-
 include 'header.php'; 
-
 $uname = $_POST['user'];
 $pass = $_POST['userpassword'];
-
 //echo $uname;
 //echo $pass;
-
-
 
 include('connect.php');
 
@@ -25,13 +15,12 @@ $count = mysql_num_rows($result);
 //echo $query;
 
 
-
-
-
-
-
-
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />

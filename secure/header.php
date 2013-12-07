@@ -36,7 +36,7 @@
 	        </p>
 	       	    
 
-	        <input type="submit" value="Submit" />
+	        <input id="gobutton" type="submit" value="Submit" />
 	    
 	        
 	        
