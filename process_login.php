@@ -1,25 +1,65 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+<?php 
+
 session_start();
+
+
+include 'header.php'; 
+
 $uname = $_POST['user'];
 $pass = $_POST['userpassword'];
 
-echo $uname;
-echo $pass;
+//echo $uname;
+//echo $pass;
 
 
 
 include('connect.php');
-include('header.php');
-include('menu.php');
 
 $query = "select * FROM logins WHERE username='$uname' and pword='$pass'";
 $result = mysql_query($query) or die(mysql_error());
 
 $count = mysql_num_rows($result);
-echo $query;
+//echo $query;
 
 
-if($count > 0)
+
+
+
+
+
+
+?>
+<title>Raymond's PC's</title>
+
+<link rel="stylesheet" type="text/css" href="styles/css.css" />
+</head>
+<body style="background-color:silver">
+    <div id="wrapper">
+        <div id="headerwrap">
+     
+                  
+
+
+ </div>
+       
+        <div id="leftcolumnwrap">
+
+       
+<?php include 'menu.php'; ?>
+
+        </div>
+        <div id="contentwrap">
+        <div id="content">
+     
+		<h1 style="margin-left:10px" > Login Process </h1>
+		
+		<?php 
+		
+		
+		if($count > 0)
 {
 //user has put in the correct credentials
 
@@ -37,5 +77,25 @@ echo "<p>Your password or username is incorrect, click <a href='login.php'>here<
 
 }
 
-include('footer.php');
-?>
+		
+		
+		?>
+
+
+
+
+
+        
+        </div>
+        </div>
+        <div id="footerwrap">
+        
+        <?php include 'footer.php'; ?>
+        
+        </div>
+    </div>
+</body>
+</html>
+
+
+
