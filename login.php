@@ -36,7 +36,7 @@
 	        <p><label>Password: </label>
 	        <input type="password" name="userpassword" required />
 	        </p>
-	        <input type="submit" value="login" />
+	        <input type="submit" value="login" id="gobutton" style="margin-left:125px" />
 	    
 	        
 	        
