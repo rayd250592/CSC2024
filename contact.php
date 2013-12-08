@@ -36,7 +36,7 @@
 	        <input type="text" name="user" required style="margin-left:20px;" />
 	        </p>
 	        <p><label>Email: </label>
-	        <input type="email" placeholder="me@example.com "name="email" required  />
+	        <input type="email" placeholder="me@example.com "name="email" required style="margin-left:30px;" />
 	        </p>
 	        <p><label>Message: </label>
 	   <textarea name="comment" required ></textarea>

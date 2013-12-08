@@ -24,30 +24,12 @@
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Desktops </h1>
+		<h1 style="margin-left:10px" > Products </h1>
 		
+		<p>Welcome to Raymond's PC's. Here you will find the best deal's on laptops and computers in the country. Keep an eye out for our seasonal offers.</p>
+		<p>With free onsite parking and excellent advice when buying a PC or laptop, you wont want to buy anywhere else!</p>
 		
-<table id="table_id">
-    <thead>
-        <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>etc</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Row 1 Data 1</td>
-            <td>Row 1 Data 2</td>
-            <td>etc</td>
-        </tr>
-        <tr>
-            <td>Row 2 Data 1</td>
-            <td>Row 2 Data 2</td>
-            <td>etc</td>
-        </tr>
-    </tbody>
-</table>
+
 
 
 

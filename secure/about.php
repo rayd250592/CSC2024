@@ -24,18 +24,23 @@
         <div id="contentwrap">
         <div id="content">
      
+      <h1>Edit About the Company</h1>
+      
+     <form action="process_about.php" method="POST">
      
-     <h1>Edit About the Company</h1>
-			<strong>Title: </strong> 
-		<br> <input type="text" value="About the Company"> 		
+    
+	    <strong>Title: </strong> 
+		<br> <input type="text"  name="title" value="About the Company"> 		
 		<br>
 		<br>
 <strong>Content:</strong>	<br>
-	<textarea cols="80">Based on Malone Road, belfast, Raymond's PC's is the place to go for all your desktop and laptop needs!</textarea>
+	<textarea cols="80" name="content">Based on Malone Road, belfast, Raymond's PC's is the place to go for all your desktop and laptop needs!</textarea>
 	<br>
 	<br>
 		
-<a href="company_history.php"><input id="gobutton" type="submit" value="Submit" style="margin-left:700px"/></a>    
+<input id="gobutton" type="submit" value="Submit" style="margin-left:700px"/>
+
+</form>
         
         
         </div>
