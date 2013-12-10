@@ -25,6 +25,7 @@
          <li class='last'><a href="desktops.php"><span>Desktops</span></a></li>
       </ul>
    </li>
+   <li class='last'><a href='FAQ.php'><span>FAQ</span></a></li>
    <li class='last'><a href='contact.php'><span>Contact Us</span></a></li>
 </ul>
 </div>
