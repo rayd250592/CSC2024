@@ -1,3 +1,18 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION['csc2024_40043298']))
+
+{
+
+$URL = '../login.php';
+header ("Location: $URL");
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,6 +46,7 @@
 
 
 
+<input id="gobutton" type="submit" value="New" style="margin-left:700px"/>
 
         
         </div>

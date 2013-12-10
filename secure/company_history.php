@@ -1,3 +1,18 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION['csc2024_40043298']))
+
+{
+
+$URL = '../login.php';
+header ("Location: $URL");
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
