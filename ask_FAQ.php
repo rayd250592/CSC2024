@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+<script>
+        tinymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+
+        
+</script>
+
 <?php include 'header.php'; ?>
 <title>Raymond's PC's</title>
 
@@ -28,10 +41,10 @@
 		
 			        <form action="process_login.php" method="POST">
 	        
-	        <p><label>Name: </label>
+	        <p><label><strong>Name: </strong> </label>
 	        <input type="text" name="user" required style="margin-left:25px"/>
 	        </p>
-	        <p><label>Question: </label>
+	        <p><label><strong>Question: </strong> </label>
 	        <textarea name="question" cols="80"></textarea>
 	        </p>
             <input type="submit" value="Submit" id="gobutton" style="margin-left:520px" />

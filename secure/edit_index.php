@@ -72,7 +72,7 @@ header ("Location: $URL");
         <div id="contentwrap">
         <div id="content">
      
-      <h1>Edit Company History</h1>
+      <h1>Edit Homepage</h1>
       
      <form action="process_about.php" method="POST">
      
@@ -80,8 +80,8 @@ header ("Location: $URL");
 	 <input type="hidden"  name="id" value="<?php echo $id ?> "> 		
      
     
-	    <strong>Title: </strong> 
-		<br> <input type="text"  name="title" value="<?php echo $title ?> "> 		
+	    <strong>Image: </strong> 
+		<br> <input type="file"  name="title" value="<?php echo $title ?> "> 		
 		<br>
 		<br>
 <strong>Content:</strong>	<br>

@@ -31,23 +31,29 @@
 <table id="box-table-a">
     <thead>
         <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>etc</th>
+            <th>Machine Name</th>
+            <th>Processor</th>
+            <th>HDD</th>
+            <th>RAM</th>
+            <th>OS</th>
+            <th>Graphics</th>
+            <th>Price</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Row 1 Data 1</td>
             <td>Row 1 Data 2</td>
-            <td>etc</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td><input type="button" value="More Details"/>"</td>
+        
         </tr>
-        <tr>
-            <td>Row 2 Data 1</td>
-            <td>Row 2 Data 2</td>
-            <td>etc</td>
-        </tr>
-    </tbody>
+           </tbody>
 </table>
 
 
