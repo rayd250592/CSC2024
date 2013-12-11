@@ -1,6 +1,7 @@
 <?php
 $title = $_POST['title'];
 $content = $_POST['content'];
+$id = $_POST['id'];
 
 echo $title;
 echo $content;
@@ -13,11 +14,9 @@ echo $s_content;
 
 include('../connect.php');
 
-$query = "INSERT INTO aboutcompany(title, content) VALUES('$s_title','$s_content')";
+$query = "UPDATE aboutcompany SET title='$s_title', content='$s_content' WHERE ArticleID = $id";
 echo $query;
-//mysql_query($query) or die(mysql_error());
-
-//mysql.close();
-
+mysql_query($query) or die(mysql_error());
+mysql_close();
 
 ?>

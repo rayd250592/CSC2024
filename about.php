@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include 'header.php'; ?>
+<?php include 'header.php';
+
+
+include('connect.php');
+
+$query = "SELECT title, content FROM aboutcompany ORDER BY ArticleID DESC LIMIT 1";
+
+$display = mysql_query($query) or die (mysql_error());
+
+//echo $display;
+
+$i = 0;
+
+$title = mysql_result($display, $i, "title");
+$content = mysql_result($display, $i, "content");
+
+//echo $title;
+//echo $content;
+
+
+ ?>
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
@@ -24,10 +44,10 @@
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > About the Company </h1>
+		<h1 style="margin-left:10px" > <?php echo $title ?> </h1>
 		
 		
-		<p>Based on Malone Road, belfast, Raymond's PC's is the place to go for all your desktop and laptop needs!</p>
+		<p> <?php echo $content ?></p>
 		
 <div id="map" style="margin-left:10px">
 

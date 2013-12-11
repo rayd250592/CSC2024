@@ -5,6 +5,7 @@
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
+<link rel="stylesheet" type="text/css" href="styles/tables.css" />
 </head>
 <body style="background-color:silver">
     <div id="wrapper">
@@ -27,7 +28,7 @@
 		<h1 style="margin-left:10px" > Desktops </h1>
 		
 		
-<table id="table_id">
+<table id="box-table-a">
     <thead>
         <tr>
             <th>Column 1</th>

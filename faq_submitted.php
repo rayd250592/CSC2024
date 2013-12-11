@@ -26,7 +26,7 @@
      
 		<h1 style="margin-left:10px" > Question Submitted </h1>
 		
-		
+		<p>Thank you for submitting your question. If it is approved by the site administrator, It will appear   </p>
         
         </div>
         </div>
