@@ -42,11 +42,15 @@ header ("Location: $URL");
 			<table style="width: 100%; border:thick">
 			
 				<tr>
+					<td style="text-align:center"><a href="edit_index.php"><input id="gobutton" type="submit" value="Homepage" /></a></td>
+					<td style="text-align:center">Edit the "Homepage"</td>
+				</tr>
+				<tr>
 					<td style="text-align:center"><a href="about.php"><input id="gobutton" type="submit" value="About the Company" /></a></td>
 					<td style="text-align:center">Edit the "About the Company Page"</td>
 				</tr>
 				<tr>
-					<td style="text-align:center"><a href="company_history.php"><input id="gobutton" type="submit" value="Company History" /></a></td>
+					<td style="text-align:center"><a href="edit_company_history.php"><input id="gobutton" type="submit" value="Company History" /></a></td>
 					<td style="text-align:center">Edit the "Company History"</td>
 				</tr>
 				<tr>

@@ -26,8 +26,21 @@
      
 		<h1 style="margin-left:10px" > Home </h1>
 		
-		<p>Welcome to Raymond's PC's. Here you will find the best deal's on laptops and computers in the country. Keep an eye out for our seasonal offers.</p>
-		<p>With free onsite parking and excellent advice when buying a PC or laptop, you wont want to buy anywhere else!</p>
+		
+		
+			<table style="width: 100%">
+				<tr>
+					<td><img src="img/home_logo.png" alt="homepage logo" /></td>
+					<td><p>Welcome to Raymond's PC's. Here you will find the best deal's on laptops and computers in the country. Keep an eye out for our seasonal offers.</p>
+		<p>With free onsite parking and excellent advice when buying a PC or laptop, you wont want to buy anywhere else!</p></td>
+				</tr>
+			</table>
+		
+		
+		
+
+		
+		
 		
 
         

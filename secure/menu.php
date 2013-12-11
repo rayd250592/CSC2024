@@ -26,10 +26,11 @@ header ("Location: $URL");
 
 <li class='active'><a href='#'><span>Admin Menu</span></a></li>
    <li class='active'><a href='index.php'><span>Home</span></a></li>
+   <li class='active'><a href='edit_index.php'><span>Homepage</span></a></li>
    <li class='has-sub'><a href='#'><span>About</span></a>
       <ul>
        <li><a href='about.php'>About the Company</a></li>
-         <li><a href="company_history.php">Company History</a></li>
+         <li><a href="edit_company_history.php">Company History</a></li>
          <li class='last'><a href="cust_charter.php"><span>Customer Charter</span></a></li>
       </ul>
    </li>
