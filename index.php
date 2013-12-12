@@ -1,7 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include 'header.php'; ?>
+<?php include 'header.php';
+
+include 'connect.php';
+
+
+$query = "SELECT ArticleID, imagepath, content FROM homepage ORDER BY ArticleID DESC LIMIT 1";
+
+$display = mysql_query($query) or die (mysql_error());
+
+//echo $display;
+
+$i = 0;
+
+$id = mysql_result($display, $i, "ArticleID");
+$imagepath = mysql_result($display, $i, "imagepath");
+$content = mysql_result($display, $i, "content");
+
+$target = 'img/home/'.$imagepath;
+
+echo $target;
+echo $content;
+
+
+
+?>
+
+
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
@@ -30,9 +56,8 @@
 		
 			<table style="width: 100%">
 				<tr>
-					<td><img src="img/home_logo.png" alt="homepage logo" /></td>
-					<td><p>Welcome to Raymond's PC's. Here you will find the best deal's on laptops and computers in the country. Keep an eye out for our seasonal offers.</p>
-		<p>With free onsite parking and excellent advice when buying a PC or laptop, you wont want to buy anywhere else!</p></td>
+					<td><img src="<?php echo $target ?>" alt="homepage logo" /></td>
+					<td><p><?php echo $content ?></p></td>
 				</tr>
 			</table>
 		
