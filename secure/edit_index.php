@@ -91,7 +91,7 @@ header ("Location: $URL");
 	
 	<div id="buttons" style="margin-left:500px">
 	
-<a href="new_about.php"><input id="gobutton" type="button" value="New"/></a>
+<a href="new_index.php"><input id="gobutton" type="button" value="New"/></a>
 <a href="delete_about.php"><input id="gobutton" type="button" value="Delete"/></a>
 <input id="gobutton" type="submit" value="Submit" />
 

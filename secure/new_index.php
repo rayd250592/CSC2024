@@ -72,16 +72,13 @@ header ("Location: $URL");
         <div id="contentwrap">
         <div id="content">
      
-      <h1>Edit Company History</h1>
+      <h1>New Homepage Record</h1>
       
-     <form action="process_about.php" method="POST">
+     <form enctype="multipart/form-data" action="process_new_index.php" method="POST">
      
-    
-	 <input type="hidden"  name="id" value="<?php echo $id ?> "> 		
-     
-    
-	    <strong>Title: </strong> 
-		<br> <input type="text"  name="title" value="<?php echo $title ?> "> 		
+         
+      <strong>Image: </strong> 
+		<br> <input type="file"  name="image" value=""> 		
 		<br>
 		<br>
 <strong>Content:</strong>	<br>
@@ -91,8 +88,7 @@ header ("Location: $URL");
 	
 	<div id="buttons" style="margin-left:500px">
 	
-<a href="new_about.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_about.php"><input id="gobutton" type="button" value="Delete"/></a>
+
 <input id="gobutton" type="submit" value="Submit" />
 
 </div>
