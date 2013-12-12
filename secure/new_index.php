@@ -89,7 +89,8 @@ header ("Location: $URL");
 	<div id="buttons" style="margin-left:500px">
 	
 
-<input id="gobutton" type="submit" value="Submit" style="margin-left:230px"/>
+<input id="gobutton" type="submit" value="Submit" style="margin-left:70px"/>
+<a href="edit_index.php"><input id="gobutton" type="button" value="Back" style=""/></a>
 
 </div>
 

@@ -20,10 +20,6 @@ $content = mysql_result($display, $i, "content");
 
 $target = 'img/home/'.$imagepath;
 
-echo $target;
-echo $content;
-
-
 
 ?>
 

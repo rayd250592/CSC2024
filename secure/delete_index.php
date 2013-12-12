@@ -11,20 +11,26 @@ $URL = '../login.php';
 header ("Location: $URL");
 }
 
-//$query = "SELECT ArticleID, title, content FROM aboutcompany ORDER BY ArticleID DESC LIMIT 1";
 
-//$display = mysql_query($query) or die (mysql_error());
+
+
+
+$query = "SELECT ArticleID, imagepath, content FROM homepage ORDER BY ArticleID DESC LIMIT 1";
+
+$display = mysql_query($query) or die (mysql_error());
 
 //echo $display;
 
-//$i = 0;
+$i = 0;
 
-//$title = mysql_result($display, $i, "title");
-//$content = mysql_result($display, $i, "content");
-//$id = mysql_result($display, $i, "ArticleID");
+$id = mysql_result($display, $i, "ArticleID");
+$imagepath = mysql_result($display, $i, "imagepath");
+$content = mysql_result($display, $i, "content");
 
-//echo $title;
-//echo $content;
+$target = '../img/home/'.$imagepath;
+$content_to_display = mysql_real_escape_string( strip_tags( $content ) );
+
+//echo $target;
 
 
 
@@ -72,28 +78,35 @@ header ("Location: $URL");
         <div id="contentwrap">
         <div id="content">
      
-      <h1>Edit Company History</h1>
+      <h1>Delete Homepage Record</h1>
       
-     <form action="process_about.php" method="POST">
+     <form action="process_delete_index.php" method="POST">
      
     
 	 <input type="hidden"  name="id" value="<?php echo $id ?> "> 		
      
+     <strong>Are you sure you want to delete this record?:</strong>	
+     <br>
+     <br>
+     
+
+     <input type="hidden"  name="id" value="<?php echo $id?> ">
+      <input type="hidden"  name="imagepath" value="<?php echo $imagepath?> ">
     
-	    <strong>Title: </strong> 
-		<br> <input type="text"  name="title" value="<?php echo $title ?> "> 		
-		<br>
-		<br>
-<strong>Content:</strong>	<br>
-	<textarea cols="80" name="content" style="width:20px"><?php echo $content ?> </textarea>
+	    <strong>Image:</strong>	<br>
+	<img src="<?php echo $target ?>" alt="homepage logo" />
 	<br>
 	<br>
+<strong>Content: </strong> 
+		<br> <input type="text"  name="title" value="<?php echo $content_to_display?> "> 		
+		<br>
+		<br>
 	
 	<div id="buttons" style="margin-left:500px">
 	
-<a href="new_about.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_about.php"><input id="gobutton" type="button" value="Delete"/></a>
 <input id="gobutton" type="submit" value="Submit" />
+<a href="edit_index.php"><input id="gobutton" type="button" value="Back"/></a>
+
 
 </div>
 
