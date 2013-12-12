@@ -49,6 +49,7 @@ header ("Location: $URL");
 
    <li class='last'><a href='FAQ.php'><span>FAQ</span></a></li>
    <li class='last'><a href='contact.php'><span>Contact Us</span></a></li>
+   <li class='last'><a href='documents.php'><span>Contact Us</span></a></li>
    <li class='last'><a href='process_logout.php'><span>Logout</span></a></li>
 </ul>
 </div>
