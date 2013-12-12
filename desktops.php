@@ -50,7 +50,7 @@
             <td>Row 1 Data 2</td>
             <td>Row 1 Data 2</td>
             <td>Row 1 Data 2</td>
-            <td><input type="button" value="More Details"/>"</td>
+            <td><a href="individual_desktop.php"><input type="button" value="More Details"/>"</a></td>
         
         </tr>
            </tbody>
