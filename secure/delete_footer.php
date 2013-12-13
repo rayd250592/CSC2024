@@ -89,40 +89,25 @@ tinymce.init({
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Edit Footer </h1>
+		<h1 style="margin-left:10px" > Delete Footer Record </h1>
 
-  <form action="process_edit_footer.php" method="POST">
+  <form action="process_delete_footer.php" method="POST">
 
 <input type="hidden"  name="id" value="<?php echo $id?>"/>
 			
-			
-			<strong>Line 1: </strong>
-			<br>
-			<br>
-<textarea name="line1"><?php echo $line1?></textarea>
-			<br>
-			<br>
-			<strong>Line 2: </strong>
-			<br>
-			<br>
-<textarea name="line2"><?php echo $line2?></textarea>
-			
-			<br>
-			<br>
-			<strong>Line 3: </strong>
-			<br>
-			<br>
-<textarea name="line3"><?php echo $line3?></textarea>
-			<br>
-			<br>
-			
-			
+<strong>Are you sure you want to delete this record?</strong>		
+<br>
+<br>	
+				
 
-				<div id="buttons" style="margin-left:500px">
+<strong>Line 1: </strong><p><?php echo $line1 ?></p>
+<strong>Line 2: </strong><p><?php echo $line2 ?></p>
+<strong>Line 3: </strong><p><?php echo $line3 ?></p>
+
+<div id="buttons" style="margin-left:500px">
 	
-<a href="new_footer.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_footer.php"><input id="gobutton" type="button" value="Delete"/></a>
-<input id="gobutton" type="submit" value="Submit" />
+<a href="new_footer.php"><input id="gobutton" type="submit" value="Yes"/></a>
+<a href="footer.php"><input id="gobutton" type="button" value="No"/></a>
 
 </div>
 

@@ -1,3 +1,19 @@
+<?php
+//include 'connect.php';
+$query = "SELECT line1, line2, line3 FROM footer ORDER BY ArticleID DESC LIMIT 1";
+
+$display = mysql_query($query) or die (mysql_error());
+
+//echo $display;
+
+$i = 0;
+
+$line1 = mysql_result($display, $i, "line1");
+$line2 = mysql_result($display, $i, "line2");
+$line3 = mysql_result($display, $i, "line3");
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -23,39 +39,21 @@
 
 			
 			</td>
-			<td style="text-align:right; color:white">info@raymondscomputers.com<br>
-			Tel: 07703766787<br>(C) Copyright Raymond's PC's 2013
-			
-			
-
-			
+			<td style="text-align:right; color:white">
+			<?php echo $line1 ?>
+			<br>
+		    <?php echo $line2 ?>
+			<br>
+			<?php echo $line3 ?>
+						
 			</td>
 		</tr>
 	</table>
 
 
-
-
-
 </div>
 
   
-            
-
- 
-
-            
-          
-
-
-
-
-      
- 
-
-
-
-   
  
 </body>
 
