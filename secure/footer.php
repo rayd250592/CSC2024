@@ -16,6 +16,37 @@ header ("Location: $URL");
 <!DOCTYPE html>
 <html>
 <head>
+<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+<script>
+        tinymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+        
+        tinymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+
+
+tinymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+
+
+        
+</script>
+
 
 <?php include 'secureheader.php'; ?>
 <title>Raymond's PC's</title>
@@ -48,13 +79,23 @@ header ("Location: $URL");
 
 			
 			
-			<strong>Line 1: </strong><input type="text" style="width:600px" style="text-align:center"value="info@raymondscomputers.com">
+			<strong>Line 1: </strong>
 			<br>
 			<br>
-			<strong>Line 2: </strong><input type="text" style="width:600px"  value="Tel: 07703766787">
+<textarea></textarea>
 			<br>
 			<br>
-			<strong>Line 3: </strong><input type="text" style="width:600px" value="(C) Copyright Raymond's PC's 2013">
+			<strong>Line 2: </strong>
+			<br>
+			<br>
+<textarea></textarea>
+			
+			<br>
+			<br>
+			<strong>Line 3: </strong>
+			<br>
+			<br>
+<textarea></textarea>
 			<br>
 			<br>
 			

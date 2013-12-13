@@ -51,9 +51,6 @@ $content = mysql_result($display, $i, "content");
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
 <style type="text/css">
-.auto-style1 {
-	text-align: left;
-}
 </style>
 </head>
 <body style="background-color:silver">
