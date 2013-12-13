@@ -16,6 +16,56 @@ header ("Location: $URL");
 <!DOCTYPE html>
 <html>
 <head>
+<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+<script>
+        tinymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+        
+        tinymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+
+
+tinymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+        
+        inymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+
+
+inymce.init({
+        
+        selector:'textarea'
+  
+        
+        
+        });
+
+
+
+        
+</script>
+
+
 <?php include 'secureheader.php'; ?>
 <title>Raymond's PC's</title>
 
@@ -144,6 +194,9 @@ header ("Location: $URL");
 	Payments will be taken via our secure website and a full receipt or invoice will be provided
 	
 	</textarea>
+	
+	<br>
+	<br>
 
 
 <a href="company_history.php"><input id="gobutton" type="submit" value="Submit" style="margin-left:700px"/></a>    

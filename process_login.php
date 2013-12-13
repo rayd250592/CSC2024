@@ -6,7 +6,7 @@ $pass = $_POST['userpassword'];
 //echo $uname;
 //echo $pass;
 
-include('connect.php');
+//include('connect.php');
 
 $query = "select * FROM logins WHERE username='$uname' and pword='$pass'";
 $result = mysql_query($query) or die(mysql_error());

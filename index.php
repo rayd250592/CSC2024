@@ -3,7 +3,7 @@
 <head>
 <?php include 'header.php';
 
-include 'connect.php';
+//nclude 'connect.php';
 
 
 $query = "SELECT ArticleID, imagepath, content FROM homepage ORDER BY ArticleID DESC LIMIT 1";

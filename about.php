@@ -4,7 +4,7 @@
 <?php include 'header.php';
 
 
-include('connect.php');
+//include('connect.php');
 
 $query = "SELECT title, content FROM aboutcompany ORDER BY ArticleID DESC LIMIT 1";
 
