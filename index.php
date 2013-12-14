@@ -52,7 +52,7 @@ $target = 'img/home/'.$imagepath;
 		
 			<table style="width: 100%">
 				<tr>
-					<td><img src="<?php echo $target ?>" alt="homepage logo" /></td>
+					<td><img src="<?php echo $target ?>" alt="homepage logo" width="50%" height="50%"/></td>
 					<td><p><?php echo $content ?></p></td>
 				</tr>
 			</table>
