@@ -19,14 +19,8 @@
          <li class='last'><a href="cust_charter.php"><span>Customer Charter</span></a></li>
       </ul>
    </li>
-   <li class='has-sub'><a href='#'><span>Products</span></a>
-      <ul>
-         <li><a href="laptops.php"><span>Laptops</span></a></li>
-         <li class='last'><a href="desktops.php"><span>Desktops</span></a></li>
-      </ul>
-   </li>
-   <li class='last'><a href='FAQ.php'><span>FAQ</span></a></li>
-   <li class='last'><a href='contact.php'><span>Contact Us</span></a></li>
+      <li class='last'><a href='products.php'><span>Products</span></a></li>
+    <li class='last'><a href='contact.php'><span>Contact Us</span></a></li>
 </ul>
 </div>
 </body>

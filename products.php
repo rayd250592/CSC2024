@@ -5,6 +5,7 @@
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
+<link rel="stylesheet" type="text/css" href="styles/tables.css" />
 </head>
 <body style="background-color:silver">
     <div id="wrapper">
@@ -26,10 +27,34 @@
      
 		<h1 style="margin-left:10px" > Products </h1>
 		
-		<p>Welcome to Raymond's PC's. Here you will find the best deal's on laptops and computers in the country. Keep an eye out for our seasonal offers.</p>
-		<p>With free onsite parking and excellent advice when buying a PC or laptop, you wont want to buy anywhere else!</p>
 		
-
+<table id="box-table-a">
+    <thead>
+        <tr>
+            <th>Machine Name</th>
+            <th>Processor</th>
+            <th>HDD</th>
+            <th>RAM</th>
+            <th>OS</th>
+            <th>Graphics</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1 Data 1</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td>Row 1 Data 2</td>
+            <td><a href="individual_desktop.php"><input type="button" value="More Details"/>"</a></td>
+        
+        </tr>
+           </tbody>
+</table>
 
 
 
