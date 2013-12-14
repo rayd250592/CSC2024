@@ -20,7 +20,7 @@
       </ul>
    </li>
       <li class='last'><a href='products.php'><span>Products</span></a></li>
-    <li class='last'><a href='contact.php'><span>Contact Us</span></a></li>
+ 
 </ul>
 </div>
 </body>
