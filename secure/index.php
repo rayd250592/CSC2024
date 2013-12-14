@@ -58,12 +58,8 @@ header ("Location: $URL");
 					<td style="text-align:center">Edit the "Customer Charter"</td>
 				</tr>
 				<tr>
-					<td style="text-align:center"><a href="laptops.php"><input id="gobutton" type="submit" value="Laptops" /></a></td>
-					<td style="text-align:center">Edit the "Laptops" Page</td>
-				</tr>
-				<tr>
-					<td style="text-align:center"><a href="desktops.php"><input id="gobutton" type="submit" value="Desktops" /></a></td>
-					<td style="text-align:center">Edit the "Desktops" Page</td>
+					<td style="text-align:center"><a href="products.php"><input id="gobutton" type="submit" value="Products" /></a></td>
+					<td style="text-align:center">Edit the "Products" Page</td>
 				</tr>
 				<tr>
 					<td style="text-align:center"><a href="contact.php"><input id="gobutton" type="submit" value="Contact Us" /></a></td>
