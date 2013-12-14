@@ -10,6 +10,36 @@ $URL = '../login.php';
 header ("Location: $URL");
 }
 
+include('../connect.php');
+
+
+$query = "SELECT ArticleID, title, content, title1, content1, title2, content2, title3, content3, title4, content4 FROM customercharter ORDER BY ArticleID DESC LIMIT 1";
+
+$display = mysql_query($query) or die (mysql_error());
+
+//echo $display;
+
+$i = 0;
+
+$id = mysql_result($display, $i, "ArticleID");
+
+$title = mysql_result($display, $i, "title");
+$content = mysql_result($display, $i, "content");
+
+$title1 = mysql_result($display, $i, "title1");
+$content1 = mysql_result($display, $i, "content1");
+
+
+$title2 = mysql_result($display, $i, "title2");
+$content2 = mysql_result($display, $i, "content2");
+
+
+$title3 = mysql_result($display, $i, "title3");
+$content3 = mysql_result($display, $i, "content3");
+
+
+$title4 = mysql_result($display, $i, "title4");
+$content4 = mysql_result($display, $i, "content4");
 ?>
 
 
@@ -89,9 +119,13 @@ inymce.init({
         <div id="contentwrap">
         <div id="content">
         
+     <form action="process_edit_cust_charter.php" method="post">
+     
+     <input type="hidden" name="id" value=<?php echo $id?>>
+        
    <h1>Edit Customer Charter Page</h1>
      
-		<strong>Title: </strong><input type="text" value="Edit Customer Charter">
+		<strong>Title: </strong><input type="text" name="title" value=<?php echo $title?>>
 		
 		<br>
 		<br>
@@ -101,15 +135,13 @@ inymce.init({
 	<br>
 	<br>
 	
-		<textarea cols="80">Raymond's PC's staff are committed to providing first class customer service and ensuring that you are happy with every part of our services. 
-		We have looked after thousands of customers and have a very loyal customer base. 
-		We are always looking to improve our service so please get in touch with any ideas or suggestions!</textarea>
+		<textarea cols="80" name="content"><?php echo $content?></textarea>
 		
 		<br>
 		<br>
 		
 		
-		<strong>Title: </strong><input type="text" style="width:300px" value="1. Provide a First Class Customer Service">
+		<strong>Title: </strong><input type="text" style="width:300px" name="title1"value=<?php echo $title1?>>
 		
 			<br>
 		<br>
@@ -122,20 +154,16 @@ inymce.init({
 
 	
 		
-	    	<textarea cols="80">
+	    	<textarea cols="80" name="content1">
 	    	
-	    	Raymond's PC's staff understand the importance of ensuring that they arrive at your home or business as quickly as possible and at the time agreed.
-	     	We aim to repair 99% of issues without having to take any equipment away. 
-	     	In the rare event that any equipment that is taken away for repair or further diagnosis, we will provide you with an expectation of when it will be returned.
-			Where spare parts need to be sourced, your PC PAL Engineers aim to carry an extensive range of spare parts. 
-			If we need to order specific parts, we will contact you to gain authorisation (with estimated time of arrival) for delivery upon acceptance of our quotation for parts.
+	   <?php echo $content1?>
 
 </textarea>
 
 <br>
 <br>
 
-<strong>Title: </strong><input type="text" style="width:300px" value="2. Prompt and Clear Communication">
+<strong>Title: </strong><input type="text" style="width:300px" name="title2" value="<?php echo $title2?>">
 		
 			<br>
 		<br>
@@ -146,17 +174,14 @@ inymce.init({
 	<br>
 
 		
-	 	<textarea cols="80">
-	 	Raymond's PC's staffunderstand the importance of answering your call and aim to answer all calls within 5 rings.
-	    If we are unable to answer immediately (as we may be speaking to another customer), then we will return your call within the hour. 
-	    We will also provide prompt replies via email.
-	    </textarea>
+	 	<textarea cols="80" name="content2">
+	<?php echo $content2?>	    </textarea>
 	    
 	    <br>
 	    <br>
 	    
 
-<strong>Title: </strong><input type="text" style="width:300px" value="3. Clear and Simple Pricing">
+<strong>Title: </strong><input type="text" style="width:300px" name="title3" value="<?php echo $title3?>">
 		
 			<br>
 		<br>
@@ -166,17 +191,16 @@ inymce.init({
 	<br>
 	<br>
 	    		
-	<textarea cols="80">
+	<textarea cols="80" name="content3">
 	
-	"Raymond's PC's aim to provide clear pricing information before commencing any work for you and will provide 
-	 a fixed price for the supply of new or replacement spare parts in advance for your authorisation.
+<?php echo $content3?>
 	
  </textarea>
 	    
 <br>
 <br>
 
-<strong>Title: </strong><input type="text" style="width:300px" value="4. Payment and Receipts">
+<strong>Title: </strong><input type="text" style="width:300px" name="title4"value="<?php echo $title4?>">
 		
 			<br>
 		<br>
@@ -186,23 +210,25 @@ inymce.init({
 	<br>
 	<br>
 	    		
-	<textarea cols="80">
+	<textarea cols="80" name="content4">
 			
 			
-	Raymond's PC's aim to ensure we provide convenient payment methods including Cash, Company Cheque, Debit and Credit cards.
-	    
-	Payments will be taken via our secure website and a full receipt or invoice will be provided
-	
-	</textarea>
+<?php echo $content4?>	</textarea>
 	
 	<br>
 	<br>
 
 
-<a href="company_history.php"><input id="gobutton" type="submit" value="Submit" style="margin-left:700px"/></a>    
+<div id="buttons" style="margin-left:500px">
+	
+<a href="new_cust_charter.php"><input id="gobutton" type="button" value="New"/></a>
+<a href="delete_cust_charter.php"><input id="gobutton" type="button" value="Delete"/></a>
+<input id="gobutton" type="submit" value="Submit" />
+
+</div>
 
 
-
+</form>
         
         </div>
         </div>
