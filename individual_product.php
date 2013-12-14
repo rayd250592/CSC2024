@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include 'header.php'; ?>
+<?php include 'header.php'; 
+
+$id = $_POST['id'];
+echo $id;
+
+
+?>
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
