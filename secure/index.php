@@ -78,6 +78,11 @@ header ("Location: $URL");
 					<td style="text-align:center">Edit the Footer</td>
 				</tr>
 				<tr>
+					<td style="text-align:center"><a href="changecolour.php"><input id="gobutton" type="submit" value="Change Background Colour" /></a></td>
+					<td style="text-align:center">Change Background Colour</td>
+				</tr>
+
+				<tr>
 					<td style="text-align:center"><a href="documents.php"><input id="gobutton" type="submit" value="View Documents" /></a></td>
 					<td style="text-align:center">View Website Documents</td>
 				</tr>
