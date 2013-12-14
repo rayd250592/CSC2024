@@ -1,35 +1,23 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION['csc2024_40043298']))
+
+{
+
+$URL = '../login.php';
+header ("Location: $URL");
+}
+
+include('secureheader.php');
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
-<?php include 'header.php'; 
-
-$id = $_POST['id'];
-
-$query = "SELECT * FROM products where ProductID=$id";
-$display = mysql_query($query) or die (mysql_error());
-
-
-$i = 0;
-
-$id = mysql_result($display, $i, "ProductID");
-
-$machinename = mysql_result($display, $i, "machinename");
-$processor= mysql_result($display, $i, "processor");
-
-$hdd = mysql_result($display, $i, "hdd");
-$ram = mysql_result($display, $i, "ram");
-
-
-$os= mysql_result($display, $i, "os");
-$graphics = mysql_result($display, $i, "graphics");
-
-
-$price= mysql_result($display, $i, "price");
-$imagepath= mysql_result($display, $i, "imagepath");
-
- 
-
-?>
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
@@ -52,7 +40,7 @@ $imagepath= mysql_result($display, $i, "imagepath");
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Product Details </h1>
+		<h1 style="margin-left:10px" > New Product </h1>
 		
 		
 		
@@ -75,7 +63,7 @@ $imagepath= mysql_result($display, $i, "imagepath");
 					
 					<td>
 				
-		<img src="img/home_logo.png" alt="product_image" >
+	
 					
 					</td>
 				
@@ -95,7 +83,7 @@ $imagepath= mysql_result($display, $i, "imagepath");
         </div>
         <div id="footerwrap">
         
-        <?php include 'footer.php'; ?>
+        <?php include 'securefooter.php'; ?>
         
         </div>
     </div>
