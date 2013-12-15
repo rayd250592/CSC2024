@@ -2,7 +2,7 @@
 
 session_start();
 $id = $_POST['id'];
-echo $id;
+//echo $id;
 
 if (!isset($_SESSION['csc2024_40043298']))
 
@@ -74,6 +74,10 @@ $target = '../img/products/'.$imagepath;
      
 		<h1 style="margin-left:10px" > Edit Product </h1>
 		
+		<br>
+		<br>
+		<br>
+		
      <form enctype="multipart/form-data" action="process_edit_product.php" method="POST">
 		
 			<table style="width: 100%">
@@ -92,7 +96,7 @@ $target = '../img/products/'.$imagepath;
 					<br>
 					<br>
 					
-					<img src="<?php echo $target ?>" alt="image">
+					<img src="<?php echo $target ?>" alt="image" width="50%" height="50%">
 		
 					<p><strong>Product Image: </strong><input type="file" name="image" value="">
 					
@@ -113,12 +117,22 @@ $target = '../img/products/'.$imagepath;
 			</table>
 		
 		
-		
+		<br>
+		<br>
+		<br>
 
-<div id="buttons" style="margin-left:500px">
+<div id="buttons" style="margin-left:300px">
+
+<?php
+
+$idvar = ($id*100)/2;
+//echo $idvar;
+
+?>
 	
 
 <input id="gobutton" type="submit" value="Submit" style="margin-left:70px"/>
+<?php echo '<a href="delete_product.php?link=' . $idvar . '"><input id="gobutton" type="button" value="Delete"/></a>'; ?>
 <a href="product.php"><input id="gobutton" type="button" value="Back" style=""/></a>
 
 </div>
