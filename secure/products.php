@@ -80,7 +80,7 @@ echo "</table>"
 	
 <a href="new_product.php"><input id="gobutton" type="button" value="New"/></a>
 <a href="delete_product.php"><input id="gobutton" type="button" value="Delete"/></a>
-<input id="gobutton" type="submit" value="Submit" />
+
 
 </div>
 
