@@ -35,7 +35,7 @@ die();
 }
 $query = "INSERT INTO products(machinename, processor, hdd, ram, os, graphics, price, imagepath) VALUES('$machinename','$processor','$hdd','$ram','$os','$graphics','$price','$sentfilename')";
 echo $query;
-//mysql_query($query) or die(mysql_error());
-//mysql_close();
+mysql_query($query) or die(mysql_error());
+mysql_close();
 
 ?>

@@ -37,7 +37,7 @@ $display = mysql_query($query) or die (mysql_error());
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
 <link rel="stylesheet" type="text/css" href="styles/tables.css" />
 </head>
-<body style="background-color:silver">
+<body style="background-color:<?php echo $colour ?>">
     <div id="wrapper">
         <div id="headerwrap">
      

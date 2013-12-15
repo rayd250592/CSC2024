@@ -37,7 +37,7 @@ $content4 = mysql_result($display, $i, "content4");
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
 </head>
-<body style="background-color:silver">
+<body style="background-color:<?php echo $colour ?>">
     <div id="wrapper">
         <div id="headerwrap">
      

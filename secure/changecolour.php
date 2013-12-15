@@ -40,14 +40,14 @@ header ("Location: $URL");
      
 		<h1 style="margin-left:10px" >  Change Background Colour </h1>
 		
-		<form action="" method="post">
+		<form action="process_colour.php" method="post">
 		
-		<strong>Pick a Background Colour: </strong><input class="color" id="colourpick">
+		<strong>Pick a Background Colour: </strong><input type="color" name="hexvalue">
 		
 		<br>
 		<br>
 		
-		<input type="button" id="gobutton" value="Submit">
+		<input type="submit" id="gobutton" value="Submit">
 		
 		</form>
 		

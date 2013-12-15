@@ -1,7 +1,24 @@
 <?php
 include 'connect.php';
 
-?>
+
+$query = "SELECT hexvalue from colour";
+
+$display = mysql_query($query) or die (mysql_error());
+
+//echo $display;
+
+$i = 0;
+
+$colour = mysql_result($display, $i, "hexvalue");
+
+
+//echo $title;
+//echo $content;
+
+
+ ?>
+
 
 <!DOCTYPE html>
 <html>

@@ -36,7 +36,7 @@ $target = 'img/products/'.$imagepath;
 
 <link rel="stylesheet" type="text/css" href="styles/css.css" />
 </head>
-<body style="background-color:silver">
+<body style="background-color:<?php echo $colour ?>">
     <div id="wrapper">
         <div id="headerwrap">
      

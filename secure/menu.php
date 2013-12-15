@@ -39,6 +39,7 @@ header ("Location: $URL");
     <li class='has-sub'><a href='#'><span>Other</span></a>
       <ul>
          <li><a href="header.php"><span>Header</span></a></li>
+         <li><a href="changecolour.php"><span>Change Colour</span></a></li>
          <li class='last'><a href="footer.php"><span>Footer</span></a></li>
       </ul>
    </li>

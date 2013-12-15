@@ -75,9 +75,7 @@ $target = '../img/products/'.$imagepath;
 		<h1 style="margin-left:10px" > Edit Product </h1>
 		
 		<br>
-		<br>
-		<br>
-		
+				
      <form enctype="multipart/form-data" action="process_edit_product.php" method="POST">
 		
 			<table style="width: 100%">
