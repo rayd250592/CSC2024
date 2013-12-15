@@ -62,14 +62,6 @@ header ("Location: $URL");
 					<td style="text-align:center">Edit the "Products" Page</td>
 				</tr>
 				<tr>
-					<td style="text-align:center"><a href="contact.php"><input id="gobutton" type="submit" value="Contact Us" /></a></td>
-					<td style="text-align:center">Edit the "Contact Us" Page</td>
-				</tr>
-				<tr>
-					<td style="text-align:center"><a href="FAQ.php"><input id="gobutton" type="submit" value="FAQ's" /></a></td>
-					<td style="text-align:center">Edit the FAQ's</td>
-				</tr>
-				<tr>
 					<td style="text-align:center"><a href="header.php"><input id="gobutton" type="submit" value="Header" /></a></td>
 					<td style="text-align:center">Edit the Header</td>
 				</tr>

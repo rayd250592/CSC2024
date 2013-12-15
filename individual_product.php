@@ -27,6 +27,8 @@ $graphics = mysql_result($display, $i, "graphics");
 $price= mysql_result($display, $i, "price");
 $imagepath= mysql_result($display, $i, "imagepath");
 
+$target = 'img/products/'.$imagepath;
+
  
 
 ?>
@@ -74,8 +76,9 @@ $imagepath= mysql_result($display, $i, "imagepath");
 					
 					
 					<td>
-				
-		<img src="img/home_logo.png" alt="product_image" >
+					
+									
+		<img src="<?php echo $target ?>" alt="product_image" width="50%" height="50%" style="margin-left:30px">
 					
 					</td>
 				
