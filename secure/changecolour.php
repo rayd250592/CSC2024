@@ -18,7 +18,13 @@ header ("Location: $URL");
 <title>Raymond's PC's</title>
 
 <link rel="stylesheet" type="text/css" href="../styles/css.css">
-<script type="text/javascript" src="../js/colour/jscolor.js"></script>
+
+<script type="text/javascript" src="../js/cp/colorPicker.js"></script>
+
+
+
+
+
 </head>
 <body style="background-color:silver">
     <div id="wrapper">
@@ -42,11 +48,11 @@ header ("Location: $URL");
 		
 		<form action="process_colour.php" method="post">
 		
-		<strong>Pick a Background Colour: </strong><input type="color" name="hexvalue">
-		
-		<br>
+		<strong>Pick a Background Colour: </strong>		<br>
 		<br>
 		
+				<input type="radio" onclick="colorPicker(event)"id="" value="Submit" name="hexvalue">
+		 		
 		<input type="submit" id="gobutton" value="Submit">
 		
 		</form>
