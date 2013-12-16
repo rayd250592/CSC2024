@@ -59,34 +59,25 @@ $target = '../img/header/'.$imagepath;
         <div id="contentwrap">
         <div id="content">
      
-		<h1 style="margin-left:10px" > Edit Header </h1>
+		<h1 style="margin-left:10px" > Delete Header </h1>
 
 
-<form  enctype="multipart/form-data" action="process_edit_header.php" method="post">
+<form  enctype="multipart/form-data" action="process_delete_header.php" method="post">
+
+
+<strong>Are you sure you want to delete the below header image?</strong>
 	        
-	        <p><label>Image: </label>
-	        <br>
-	        <br>
-	        <br>
-	        
+		        
 	        <input type="hidden" value="<?php echo $id ?>"name="id" style="margin-left:20px;" />
 	        
 	        <img src="<?php echo $target ?>" alt="editimage" height="75%" width="75%">
 	        
-	        <br>
-	        <br>
-	        
-
-	        
-	        <input type="file" name="header" required style="margin-left:20px;" />
-	        </p>
-	       	    
-
+	     
 	        <div id="buttons" style="margin-left:500px">
 	
-<a href="new_header.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_header.php"><input id="gobutton" type="button" value="Delete"/></a>
-<input id="gobutton" type="submit" value="Submit" />
+<input id="gobutton" type="submit" value="Yes" />
+<a href="header.php"><input id="gobutton" type="button" value="No"/></a>
+
 
 </div>
 

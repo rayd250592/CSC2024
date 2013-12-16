@@ -17,6 +17,22 @@ $colour = mysql_result($display, $i, "hexvalue");
 //echo $content;
 
 
+
+$queryimage = "SELECT imagepath FROM header ORDER BY HeaderID DESC LIMIT 1";
+
+$displayimage = mysql_query($queryimage) or die (mysql_error());
+
+//echo $display;
+
+$x = 0;
+
+
+$imagepath = mysql_result($displayimage, $x, "imagepath");
+
+
+$target = 'img/header/'.$imagepath;
+
+
  ?>
 
 
@@ -34,8 +50,7 @@ $colour = mysql_result($display, $i, "hexvalue");
         <div id="headerwrap">
         <div id="header">
                   
-<img alt="heder "src="img/header.png" style="margin-left:300px">
-
+<img alt="heder "src="<?php echo $target ?>" style="margin-left:270px" width="392px" height="80px">
  </div>
         </div>
 
