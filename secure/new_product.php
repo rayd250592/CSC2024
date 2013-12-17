@@ -86,7 +86,7 @@ include('secureheader.php');
 	
 
 <input id="gobutton" type="submit" value="Submit" style="margin-left:70px"/>
-<a href="product.php"><input id="gobutton" type="button" value="Back" style=""/></a>
+<a href="products.php"><input id="gobutton" type="button" value="Back" style=""onclick="javascript:location.href = 'products.php'"/></a>
 
 </div>
 

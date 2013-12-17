@@ -91,8 +91,8 @@ $id = mysql_result($display, $i, "ArticleID");
 	
 	<div id="buttons" style="margin-left:500px">
 	
-<a href="new_company_history.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_company_history.php"><input id="gobutton" type="button" value="Delete"/></a>
+<a href="new_company_history.php"><input id="gobutton" type="button" value="New" onclick="javascript:location.href = 'new_company_history.php';"/></a>
+<a href="delete_company_history.php"><input id="gobutton" type="button" value="Delete" onclick="javascript:location.href = 'delete_company_history.php';"/></a>
 <input id="gobutton" type="submit" value="Submit" />
 
 </div>

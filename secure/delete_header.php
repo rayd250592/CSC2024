@@ -74,9 +74,11 @@ $target = '../img/header/'.$imagepath;
 	        
 	     
 	        <div id="buttons" style="margin-left:500px">
+	        
+	        <br>
 	
 <input id="gobutton" type="submit" value="Yes" />
-<a href="header.php"><input id="gobutton" type="button" value="No"/></a>
+<a href="header.php"><input id="gobutton" type="button" value="No" onclick="javascript:location.href = 'header.php'"/></a>
 
 
 </div>

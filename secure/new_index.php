@@ -90,7 +90,7 @@ header ("Location: $URL");
 	
 
 <input id="gobutton" type="submit" value="Submit" style="margin-left:70px"/>
-<a href="edit_index.php"><input id="gobutton" type="button" value="Back" style=""/></a>
+<a href="edit_index.php"><input id="gobutton" type="button" value="Back" style="" onclick="javascript:location.href = 'edit_index.php';"/></a>
 
 </div>
 

@@ -79,7 +79,7 @@ $target = '../img/home/'.$imagepath;
       
      <form enctype="multipart/form-data" action="process_edit_index.php" method="POST">
      
-    
+    <input type="hidden"  name="imgpath" value="<?php echo $imagepath ?> "> 	
 	 <input type="hidden"  name="id" value="<?php echo $id ?> "> 	
 	 	 <input type="hidden"  name="target" value="<?php echo $targetpath ?> "> 		
      
@@ -87,7 +87,7 @@ $target = '../img/home/'.$imagepath;
      
     
 	    <strong>Image: </strong> 
-		<br> <img src="<?php echo $target ?>" alt="imagetoedit" />
+		<br> <img src="<?php echo $target ?>" alt="imagetoedit" width="75%" height="75%"/>
 		<br> 
 		<br> 
 		<br> 
@@ -102,8 +102,8 @@ $target = '../img/home/'.$imagepath;
 	
 	<div id="buttons" style="margin-left:500px">
 	
-<a href="new_index.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_index.php"><input id="gobutton" type="button" value="Delete"/></a>
+<a href="new_index.php"><input id="gobutton" type="button" value="New" onclick="javascript:location.href = 'new_index.php';"/></a>
+<a href="delete_index.php"><input id="gobutton" type="button" value="Delete" onclick="javascript:location.href = 'delete_index.php';"/></a>
 <input id="gobutton" type="submit" value="Submit" />
 
 </div>

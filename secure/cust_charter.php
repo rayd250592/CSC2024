@@ -221,8 +221,8 @@ inymce.init({
 
 <div id="buttons" style="margin-left:500px">
 	
-<a href="new_cust_charter.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_cust_charter.php"><input id="gobutton" type="button" value="Delete"/></a>
+<a href="new_cust_charter.php"><input id="gobutton" type="button" value="New" onclick="javascript:location.href = 'new_cust_charter.php'"/></a>
+<a href="delete_cust_charter.php"><input id="gobutton" type="button" value="Delete" onclick="javascript:location.href = 'delete_cust_charter.php'"/></a>
 <input id="gobutton" type="submit" value="Submit" />
 
 </div>

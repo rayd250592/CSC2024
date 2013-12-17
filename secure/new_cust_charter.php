@@ -168,7 +168,7 @@ $content = mysql_result($display, $i, "content");
 
 
 <input id="gobutton" type="submit" value="Submit" style="margin-left:600px"/>
-<a href="cust_charter.php"><input id="gobutton" type="button" value="Back" /></a>
+<a href="cust_charter.php"><input id="gobutton" type="button" value="Back" onclick="javascript:location.href = 'cust_charter.php'" /></a>
 	
 
     

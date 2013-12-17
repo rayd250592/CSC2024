@@ -54,7 +54,7 @@ header ("Location: $URL");
 	        <div id="buttons" style="margin-left:600px">
 	
 <input id="gobutton" type="submit" value="Submit"/>
-<a href="header.php"><input id="gobutton" type="button" value="Back"/></a>
+<a href="header.php"><input id="gobutton" type="button" value="Back" onclick="javascript:location.href = 'header.php'"/></a>
 
 </div>
 

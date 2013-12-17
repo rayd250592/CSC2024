@@ -89,7 +89,7 @@ $content = mysql_result($display, $i, "content");
 
 
 <input id="gobutton" type="submit" value="Submit" />
-<a href="about.php"><input id="gobutton" type="button" value="Back" /></a>
+<a href="about.php"><input id="gobutton" type="button" value="Back" onclick="javascript:location.href = 'about.php';"/></a>
 	
 
     

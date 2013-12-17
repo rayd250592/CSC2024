@@ -91,10 +91,10 @@ $content_to_display = mysql_real_escape_string( strip_tags( $content ) );
      
 
      <input type="hidden"  name="id" value="<?php echo $id?> ">
-      <input type="hidden"  name="imagepath" value="<?php echo $imagepath?> ">
+      <input type="hidden"  name="imagepath" value="<?php echo $imagepath?>" width="75%" height="75%">
     
 	    <strong>Image:</strong>	<br>
-	<img src="<?php echo $target ?>" alt="homepage logo" />
+	<img src="<?php echo $target ?>" alt="homepage logo" width="75%" height="75%" />
 	<br>
 	<br>
 <strong>Content: </strong> 
@@ -105,7 +105,7 @@ $content_to_display = mysql_real_escape_string( strip_tags( $content ) );
 	<div id="buttons" style="margin-left:500px">
 	
 <input id="gobutton" type="submit" value="Submit" />
-<a href="edit_index.php"><input id="gobutton" type="button" value="Back"/></a>
+<a href="edit_index.php"><input id="gobutton" type="button" value="Back" onclick="javascript:location.href = 'edit_index.php';"/></a>
 
 
 </div>

@@ -84,8 +84,8 @@ $target = '../img/header/'.$imagepath;
 
 	        <div id="buttons" style="margin-left:500px">
 	
-<a href="new_header.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_header.php"><input id="gobutton" type="button" value="Delete"/></a>
+<a href="new_header.php"><input id="gobutton" type="button" value="New" onclick="javascript:location.href = 'new_header.php'"/></a>
+<a href="delete_header.php"><input id="gobutton" type="button" value="Delete" onclick="javascript:location.href = 'delete_header.php'"/></a>
 <input id="gobutton" type="submit" value="Submit" />
 
 </div>

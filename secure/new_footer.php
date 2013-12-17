@@ -103,7 +103,7 @@ tinymce.init({
 	
 
 <input id="gobutton" type="submit" value="Submit" />
-<a href="footer.php"><input id="gobutton" type="button" value="Back" /></a>
+<a href="footer.php"><input id="gobutton" type="button" value="Back" onclick="javascript:location.href = 'footer.php'" /></a>
 
 </div>
 

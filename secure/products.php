@@ -79,7 +79,7 @@ echo "</table>"
 <div id="buttons" style="margin-left:500px">
 	
 <a href="new_product.php"><input id="gobutton" type="button" value="New"/></a>
-<a href="delete_product.php"><input id="gobutton" type="button" value="Delete"/></a>
+<!--<a href="delete_product.php"><input id="gobutton" type="button" value="Delete"/></a>!-->
 
 
 </div>

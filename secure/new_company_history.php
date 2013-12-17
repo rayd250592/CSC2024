@@ -83,7 +83,10 @@ $content = mysql_result($display, $i, "content");
 	<br>
 	<br>
 	
-<input id="gobutton" type="submit" value="Submit" style="margin-left:700px"/>
+	
+<input id="gobutton" type="submit" value="Submit" style="margin-left:580px"/>
+
+<a href="edit_company_history.php"><input id="gobutton" type="button" value="Back"  onclick="javascript:location.href = 'edit_company_history.php';"/></a>
 
 </form>
         

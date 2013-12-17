@@ -91,8 +91,8 @@ $content = mysql_result($display, $i, "content");
 	<div id="buttons" style="margin-left:500px">
 	
 	
-<input id="gobutton" type="submit" value="Submit" />
-<a href="about.php"><input id="gobutton" type="button" value="No" /></a>
+<input id="gobutton" type="submit" value="Yes" />
+<a href="about.php"><input id="gobutton" type="button" value="No"  onclick="javascript:location.href = 'about.php';"/></a>
 
 </div>
 

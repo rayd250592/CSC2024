@@ -74,14 +74,19 @@ $target = '../img/products/'.$imagepath;
      
 		<h1 style="margin-left:10px" > Edit Product </h1>
 		
+<br>
 		<br>
 				
      <form enctype="multipart/form-data" action="process_edit_product.php" method="POST">
+		
+							<input type="hidden" name="imgpath" style="margin-left:30px;" value="<?php echo $imagepath ?>">
+		
 		
 			<table style="width: 100%">
 				<tr>
 					<td>
 					
+					<input type="hidden" name="id" value="<?php echo $id ?>">
 					<p><strong>Name: </strong>
 					<input type="text" name="name" style="margin-left:30px;" value="<?php echo $machinename ?>"></p>
 					<p><strong>Processor: </strong><input type="text" name="processor" value="<?php echo $processor ?>"></p>
@@ -90,7 +95,7 @@ $target = '../img/products/'.$imagepath;
 					<p><strong>RAM: </strong><input type="text" name="ram" style="margin-left:30px;" value="<?php echo $ram ?>"></p>
 					<p><strong>OS: </strong><input type="text" name="os" style="margin-left:40px;" value="<?php echo $os ?>"></p>
 					<p><strong>Graphics: </strong><input type="text" name="graphics" value="<?php echo $graphics ?>"></p>
-					<p><strong>Price: </strong>&pound;<input type="text" name="price" style="margin-left:30px;" value="<?php echo $price ?>"></p>
+					<p><strong>Price: </strong>&pound;<input type="number" name="price" style="margin-left:30px;" value="<?php echo $price ?>"></p>
 					<br>
 					<br>
 					
@@ -131,7 +136,7 @@ $idvar = ($id*100)/2;
 
 <input id="gobutton" type="submit" value="Submit" style="margin-left:70px"/>
 <?php echo '<a href="delete_product.php?link=' . $idvar . '"><input id="gobutton" type="button" value="Delete"/></a>'; ?>
-<a href="product.php"><input id="gobutton" type="button" value="Back" style=""/></a>
+<a href="products.php"><input id="gobutton" type="button" value="Back" style="" onclick="javascript:location.href = 'products.php'"/></a>
 
 </div>
 
