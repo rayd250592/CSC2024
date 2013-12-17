@@ -26,27 +26,27 @@ $s_content3 = addslashes($content3);
 $s_title4 = addslashes($title4);
 $s_content4 = addslashes($content4);
 
-echo $s_title;
-echo $s_content;
+//echo $s_title;
+//echo $s_content;
 
 
-echo $s_title1;
-echo $s_content1;
-
-
-
-echo $s_title2;
-echo $s_content2;
+//echo $s_title1;
+//echo $s_content1;
 
 
 
-echo $s_title3;
-echo $s_content3;
+//echo $s_title2;
+//echo $s_content2;
 
 
 
-echo $s_title4;
-echo $s_content4;
+//echo $s_title3;
+//echo $s_content3;
+
+
+
+//echo $s_title4;
+//echo $s_content4;
 
 
 
@@ -54,8 +54,61 @@ echo $s_content4;
 include('../connect.php');
 
 $query = "INSERT INTO customercharter(title, content, title1, content1, title2, content2, title3, content3, title4, content4) VALUES('$s_title','$s_content','$s_title1','$s_content1','$s_title2','$s_content2','$s_title3','$s_content3','$s_title4','$s_content4')";
-echo $query;
-//mysql_query($query) or die(mysql_error());
-//mysql_close();
+//echo $query;
+mysql_query($query) or die(mysql_error());
+mysql_close();
 
 ?>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../styles/css.css">
+<?php include('secureheader.php'); ?>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+        <div id="headerwrap">
+     
+                  
+
+
+ </div>
+       
+        <div id="leftcolumnwrap">
+
+       
+<?php include 'menu.php'; ?>
+
+        </div>
+
+ <div id="contentwrap">
+        <div id="content">
+
+	<h1 style="margin-left:10px" > Record Added </h1>
+
+
+<p>Record added. Click <a href="cust_charter.php">here</a> to return.</p>
+
+
+</div>
+
+</div>
+
+
+
+  <div id="footerwrap">
+        
+        <?php include 'securefooter.php'; ?>
+        
+        </div>
+
+</div>
+
+</body>
+
+
+
+</html>

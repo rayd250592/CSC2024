@@ -1,14 +1,14 @@
 <?php
 
-session_start();
+//session_start();
 
-if (!isset($_SESSION['csc2024_40043298']))
+//if (!isset($_SESSION['csc2024_40043298']))
 
-{
+//{
 
-$URL = '../login.php';
-header ("Location: $URL");
-}
+//$URL = '../login.php';
+//header ("Location: $URL");
+//}
 
 ?>
 

@@ -58,7 +58,7 @@ include('secureheader.php');
 					<p><strong>RAM: </strong><input type="text" name="ram" style="margin-left:30px;"></p>
 					<p><strong>OS: </strong><input type="text" name="os" style="margin-left:40px;"></p>
 					<p><strong>Graphics: </strong><input type="text" name="graphics"></p>
-					<p><strong>Price: </strong>&pound;<input type="text" name="price" style="margin-left:30px;"></p>
+					<p><strong>Price: </strong>&pound;<input type="number" name="price" style="margin-left:30px;"></p>
 					<br>
 		
 					<p><strong>Product Image: </strong><input type="file" name="image">
