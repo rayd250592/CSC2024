@@ -13,6 +13,7 @@ header ("Location: $URL");
 include('../connect.php');
 
 $queryimage = "SELECT HeaderID, imagepath FROM header ORDER BY HeaderID DESC LIMIT 1";
+//echo $queryimage;
 
 $displayimage = mysql_query($queryimage) or die (mysql_error());
 
