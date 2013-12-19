@@ -39,6 +39,10 @@ header ("Location: $URL");
      
 		<h1 style="margin-left:10px" > Documents </h1>
 		
+		<a href="../Documents/help_guide.docx" style="margin-left:10px">Help Guide</a>
+		<br>
+		<br>
+		<a href="../Documents/tech_guide.docx" style="margin-left:10px">Technical Guide</a>
 					    
         </div>
         </div>

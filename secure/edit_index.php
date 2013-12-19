@@ -25,6 +25,7 @@ $i = 0;
 $id = mysql_result($display, $i, "ArticleID");
 $imagepath = mysql_result($display, $i, "imagepath");
 $content = mysql_result($display, $i, "content");
+$s_content = stripcslashes($content);
 
 $target = '../img/home/'.$imagepath;
 
@@ -87,7 +88,7 @@ $target = '../img/home/'.$imagepath;
      
     
 	    <strong>Image: </strong> 
-		<br> <img src="<?php echo $target ?>" alt="imagetoedit" width="75%" height="75%"/>
+		<br> <img src="<?php echo $target ?>" alt="imagetoedit" width="300px" height="300px"/>
 		<br> 
 		<br> 
 		<br> 
@@ -96,7 +97,7 @@ $target = '../img/home/'.$imagepath;
 		 <br> 
 		 <br> 
 <strong>Content:</strong>	<br>
-	<textarea cols="80" name="content" style="width:20px"><?php echo $content ?> </textarea>
+	<textarea cols="80" name="content" style="width:20px"><?php echo $s_content ?> </textarea>
 	<br>
 	<br>
 	

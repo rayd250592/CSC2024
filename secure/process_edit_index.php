@@ -8,6 +8,8 @@ $filename = $_FILES['imageedit']['name'];
 $sentfiletemp = $_FILES['imageedit']['tmp_name'];
 $imagepath = $_POST['imgpath'];
 
+$s_content = addcslashes($content, "'");
+
 
 //echo $filename;
 $target = '../img/home/'.$sentfilename;
@@ -24,7 +26,7 @@ $filename= $imagepath;
 //die();
 
 }
-$query = "UPDATE homepage SET imagepath='$filename', content='$content' WHERE ArticleID = $id";
+$query = "UPDATE homepage SET imagepath='$filename', content='$s_content' WHERE ArticleID = $id";
 //echo $query;
 mysql_query($query) or die(mysql_error());
 mysql_close();
